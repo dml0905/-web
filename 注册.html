@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: o;
+			}
+			body {
+				width: 100%;
+				height: 745px;
+				background-color: whitesmoke;
+			}
+			body:hover {
+				cursor: pointer;
+			}
+			header {
+				height: 100px;
+				background: gray;
+			}
+			#converse {
+				width: 400px;
+				height: 100px;
+				font-size: 65px;
+				font-weight: bolder;
+				letter-spacing: 3px;
+				text-shadow: 7px 6px 3px whitesmoke;
+				color:black;
+				
+			}
+			main {
+				height:475px;
+				background: whitesmoke;
+				position: relative;
+			}
+			#p1 {
+				color:black;
+				font-size: 14px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 250px;
+				top: 60px;
+			}
+			#p2 {
+			color:black;
+			font-size: 14px;
+			letter-spacing: 1px;
+			position: absolute;
+			left: 700px;
+			top: 60px;	
+			}
+			#p3 {
+				color:black;
+				font-size: 14px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 250px;
+				top: 160px;	
+			}
+			#p4 {
+				color:black;
+				font-size: 14px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 700px;
+				top: 160px;	
+			}
+			#p5 {
+				color:black;
+				font-size: 14px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 250px;
+				top: 260px;	
+			}
+			#p6 {
+				color:black;
+				font-size: 14px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 700px;
+				top: 260px;	
+			}
+			footer {
+				height: 170px;
+				background-color: black;
+				
+			}
+			h1 {
+				color: #808080;
+				font-size: 60px;
+				margin-left: 380px;
+				display: inline-block;
+				margin-top: 30px;
+			}
+			#k1 {
+			position: absolute;
+				top: 100px;
+				left: 250px;
+			}
+			#k2 {
+				position: absolute;
+					top: 100px;
+					left: 700px;
+			}
+			#k3 {
+				position: absolute;
+					top: 200px;
+					left: 250px;
+			}
+			#k4 {
+				position: absolute;
+					top: 200px;
+					left: 700px;
+				}
+				 #k5 {
+					position: absolute;
+						top: 300px;
+						left: 250px; 
+				 }
+				 #k6 {
+					position: absolute;
+						top: 300px;
+						left: 700px;  
+				 }
+				#验证码1 {
+					width: 130px;
+					height: 38px;
+					background: #808080;
+					position: absolute;
+					top: 300px;
+					left: 420px;
+					}
+					#发送 {
+						width: 140px;
+						height: 38px;
+						background: #808080;
+						position: absolute;
+						top: 300px;
+						left: 870px;
+					}
+					#一张:active {
+						background-color: #F5F5F5;
+						color: deepskyblue;
+					}
+					#一张 {
+						font-size: 15px;
+						text-align: center;
+						color: black;
+					}
+					#换 {
+						position: absolute;
+						top: 350px;
+						left: 530px;
+						width: 50px;
+						height: 20px;
+						}
+						h4 {
+							color: aliceblue;
+							margin-left: 13px;
+							display: inline-block;
+							margin-top: 8px;
+						}
+						h2 {
+							position: absolute;
+							top: 424px;
+							right: 20px;
+							color: #000000;
+						}
+						
+						#dlk {
+							position: absolute;
+							top: 290px;
+							left: 1100px;
+							width: 300px;
+							height: 50px;
+							background-color:transparent;
+							border: 1px solid #808080;
+						}
+						#dlk:hover,#p1:hover {
+							cursor: pointer;
+						}
+						#dlk:hover {
+							background-color:gray;
+						}
+					#h1 {
+						font-size: 28px;
+						font-weight: 800;
+						margin-top: 5px ;
+						margin-left: 120px;
+						letter-spacing: 5px;
+						position: absolute;
+						top: 290px;
+						left: 1070px;
+					}
+					 #h1:hover {
+						 color:lightblue;
+						 transition: 1s;
+						 transform: scale(1.1);
+					 }
+					#登录 {
+						position: absolute;
+						top: 340px;
+						left: 1120px;
+						width: 300px;
+						color: gray;
+					}
+					#勾 {
+						position: absolute;
+						top: 340px;
+						left: 1080px;
+						width: 50px;
+		</style>
+	</head>
+	<body>
+		<header>
+				<p id="converse">CONVERSE</p>
+		</header>
+		<main>
+			<p id="p1">手机号码*</p>
+			<p id="p2">邮箱*</p>
+			<p id="p3">输入密码*</p>
+			<p id="p4">确认密码*</p>
+			<p id="p5">验证码*</p>
+			<p id="p6">短信验证码*</p>
+			<form action="" method="post" id="kuang1">
+				<input type="phone" name="emaibox" style="width: 300px; height: 35px;" maxlength="11" placeholder="15212345****" required/ id="k1" >
+			</form>
+			<form action="" method="post" id="kuang2">
+				<input type="phone" name="emaibox" style="width: 300px; height: 35px;" placeholder="example@2431026456.qq.com" required/ id="k2" >
+			</form>
+			<form action="" method="post" id="kuang3">
+				<input type="phone" name="emaibox" style="width: 300px; height: 35px;" placeholder="密码至少为8个字符" required/ id="k3" >
+			</form>
+			<form action="" method="post" id="kuang4">
+				<input type="phone" name="emaibox" style="width: 300px; height: 35px;" placeholder="请再次输入密码" required/ id="k4" >
+			</form>
+			<form action="" method="post" id="kuang5">
+				<input type="phone" name="emaibox" style="width: 140px; height: 35px;" maxlength="4" placeholder="请输入验证码" required/ id="k5" >
+			</form>
+			<form action="" method="post" id="kuang6">
+				<input type="phone" name="emaibox" style="width: 140px; height: 35px;" maxlength="4"  placeholder required/ id="k6" >
+			</form>
+			<div id="验证码1">
+				<img src="34.jpg" width="130px" height="38px">
+			</div>
+			<div id="换">
+				<a href="">
+				<p id="一张">换一张</p></a>
+			</div>
+			<div id="发送">
+				<h4>发送短信验证码</h4>
+			</div>
+			<a href="index.html">
+			<h2>返回首页>></h2></a>
+			<div id="dlk">
+			
+			</div>
+			<p id="h1">立即注册</p>
+		</main>
+		<footer>
+			<h1>关注CONVERSE男孩respect</h1>
+			<p id="登录">一旦登录，即表明您同意匡威更新的 隐私政策和使用规则</p>
+			<input type="checkbox" name="langing" value="land" checked/ style="width: 25px; height: 25px;" id="勾">
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>他人に与えられた愛に理由を加えてはいけない</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				text-decoration: none;
+			}
+			body {
+				width: 100%;
+				height: 600px;
+				background-color:whitesmoke;
+			}
+			header {
+				height: 100px;
+				background:grey;
+			}
+			#converse {
+				height: 110px;
+				width: 400px;
+				background:grey;
+				text-align: center;
+				text-shadow: 7px 6px 3px whitesmoke;
+			}
+			#con {
+				font-size: 60px;
+				font-weight: bolder;
+			}
+			main {
+				height: 460px;
+				background: whitesmoke;
+				position: relative;
+			}
+			#已经 {
+				  width: 300px;
+				  height: 60px;
+				  background:whitesmoke;
+				  position: absolute;
+				  top: 50px;
+				  left: 420px;
+			}
+			#还未 {
+				width: 300px;
+				height: 60px;
+				background:whitesmoke;
+				position: absolute;
+				top: 50px;
+				left: 830px;
+			}
+			#hw,#yj {
+				color:black;
+				font-size: 30px;
+				font-weight: 900;
+				letter-spacing:4px;
+				text-align: center;
+				opacity: 0.8;
+			}
+			#注册 {
+				width: 150px;
+				height: 35px;
+				background-color:gray;
+				text-align: center;
+				position: absolute;
+				top: 120px;
+				left: 480px;
+				border: 1px solid #000000;
+			}
+			#注册:hover ,span:hover{
+				cursor:pointer;
+				background-color: lightblue;
+				color: red;
+				transition: 2s;
+				
+			}
+			span:hover {
+				margin-left: 25px;
+			}
+			span {
+				 font-size: 25px;
+				 font-weight: 900;
+				 color:black;
+			}
+			#phone1:hover,#phone2:hover,#phone3:hover{
+				cursor:pointer;
+			}
+			#phone1{
+				background: whitesmoke;
+				position: absolute;
+				top: 120px;
+				left: 860px;
+			}
+			#phone2  {
+				background: whitesmoke;
+				position: absolute;
+				top: 180px;
+				left: 860px;
+			}
+			
+			#phone3  {
+				background: whitesmoke;
+				position: absolute;
+				top: 240px;
+				left: 860px;
+			}
+			#验证码1 {
+				width: 90px;
+				height: 35px;
+				background: #808080;
+				position: absolute;
+				top: 240px;
+				left: 1000px;
+			}
+			#换 {
+				position: absolute;
+				top: 260px;
+				left: 1100px;
+				width: 50px;
+				height: 20px;
+			}
+			#勾 {
+				position: absolute;
+				top: 300px;
+				left: 862px;
+				width: 50px;
+			}
+			#一张:active {
+				background-color: #F5F5F5;
+				color: deepskyblue;
+			}
+			#登录 {
+				position: absolute;
+				top: 300px;
+				left: 900px;
+				width: 300px;
+				color: gray;
+			}
+			#一张 {
+				font-size: 15px;
+				text-align: center;
+				color: #000000;
+			}
+			#一张:hover {
+				cursor: pointer;
+			}
+			#dlk {
+				position: absolute;
+				top: 350px;
+				left: 860px;
+				width: 300px;
+				height: 50px;
+				background-color:transparent;
+				border: 1px solid #808080;
+			}
+			#dlk:hover,#p1:hover {
+				cursor: pointer;
+			}
+			#dlk:hover {
+				background-color:gray;
+			}
+			#p1:hover {
+				color:white;
+				transition: 1s;
+				transform: scale(1.1);
+			}
+			#p1 {
+				font-size: 25px;
+				font-weight: 800;
+				margin-top: 5px ;
+				margin-left: 120px;
+				letter-spacing: 5px;
+			}
+			#中线 {
+				width: 100px;
+				height: 350px;
+				position: absolute;
+				top: 55px;
+				left: 770px;
+				background:whitesmoke;
+				border-left: 3px solid grey;
+			}
+			#记得 {
+				position: absolute;
+				top: 430px;
+				left: 862px;
+				width: 50px;
+			}
+			#p2 {
+				font-size: 15px;
+				color: #000000;
+				position: absolute;
+				top: 426px;
+				left: 880px;
+				width: 70px;
+			}
+			#u1 {
+				font-size: 15px;
+				color: #000000;
+				position: absolute;
+				top: 424px;
+				left: 1080px;
+				width: 70px;
+			}
+			#u1:hover {
+				cursor: pointer;
+			}
+			#u1:active {
+				background-color:whitesmoke;
+				color: crimson;
+				}
+				h3 {
+					position: absolute;
+					top: 424px;
+					right: 20px;
+					color: #000000;
+				}
+				h3:hover {
+					cursor: pointer;
+				}
+			footer {
+				height: 170px;
+				background-color: black;
+			}
+			#p2:hover,#登录:hover,#con:hover,#yj:hover,#hw:hover {
+				cursor:auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="converse">
+				<p id="con">CONVERSE</p>
+			</div>
+		</header>
+		<main>
+			<div id="中线"></div>
+			<div id="还未">
+				<p id="yj">
+					已经成为会员？
+				</p>
+			</div>
+			<div id="已经">
+				<p id="hw">还未注册？</p>
+				</div>
+				
+				<div id="注册">
+					<a href="注册.html">
+					<span>注册账号></span></a>
+				</div>
+				<form action="" method="post" id="phone1" >
+				<input type="phone" name="emaibox" style="width: 300px; height: 35px;" placeholder="  邮箱/手机" required/ >
+					
+				</form>
+				<form action="" method="post" id="phone2">
+				<input type="password" name="psw" style="width: 300px; height: 35px;" placeholder=" 密码"  maxlength="16" >
+				</form>
+				<form action="" method="post" id="phone3">
+				<input type="identifying code " name="idc" style="width: 100px; height: 35px;" placeholder="请输入验证码 "  maxlength="4" >
+				</form>
+				<div id="验证码1">
+					<img src="36.jpg" width="90px" height="35px">
+				</div>
+				<div id="换">
+					<a href="yzm2.html">
+					<p id="一张">换一张</p></a>
+				</div>
+				<input type="checkbox" name="langing" value="land" checked/ style="width: 25px; height: 25px;" id="勾">
+				<p id="登录">一旦登录，即表明您同意匡威更新的 隐私政策和使用规则</p>
+				<div id="dlk">
+					<p id="p1">登录</p>
+				</div>
+				<input type="checkbox" name="jd" value="jdma" checked/ style="width: 15px; height: 15px;" id="记得">
+				<p id="p2">自动保存</p>
+				<u id="u1">忘记密码?</u>
+				<a href="index.html">
+				<h3>返回首页>></h3></a>
+		</main>
+		<footer></footer>
+	</body>
+</html>
+
